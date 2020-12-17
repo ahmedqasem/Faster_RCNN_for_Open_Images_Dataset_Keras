@@ -5,13 +5,7 @@ The original code of Keras version of Faster R-CNN I used was written by yhenon 
 ## Project Structure
 'data_prep.ipynb' is used to split the data set into testing and training sets and create the annotation files used as input `frcnn_train_vgg.ipynb` is the file to train the model. The configuration and model saved path are inside this file. `frcnn_test_vgg.ipynb` is the file to test the model with test images and calculate the mAP (mean average precision) for the model. If you want to run the code on Colab, you need to give authority to Colab for connecting your Google Drive. Then, you need to upload your annotation file  and training images to the Google Drive and change my path to your right path in the notebook.
 
-## Result for some test images
+## Result a test image
 <p float="left">
-<!--     <img src="Assets/e2f4a864682b4645.jpg" width="425"/>  -->
-<!--     <img src="Assets/28cc7decbcc56aa1.jpg" width="425"/> -->
+    <img src="sample_out.png" width="425"/> 
 </p>
-<p>
-<!--     <img src="Assets/96b74d5aaadc2259.jpg" width="425"/>  -->
-<!--     <img src="Assets/c3ca8496d6a9f2de.jpg" width="425"/>  -->
-</p>
-
